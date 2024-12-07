@@ -1,0 +1,42 @@
+h1{
+	color:#e3e4e6;
+	text-align:center;
+    font-size: 70px;
+
+}
+
+
+body{
+    background:#626461;
+    margin: 0;
+    
+}
+header{
+    
+    width: 100%;
+    background: url("https://i.pinimg.com/736x/89/0d/c6/890dc6e1d4ed24e91c7d2f33f1aec6e8.jpg");
+    background-repeat:no-repeat;
+    margin: 0;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+main{    
+    background:#626461;
+    margin: 0;
+}
+.image{
+    
+    max-width: 100%;
+    height: 200%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3{
+    font-size:30px;
+}
