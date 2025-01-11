@@ -1,17 +1,25 @@
 h1{
-	color:#fcfcfc80;
+	color:#e3e4e6;
 	text-align:center;
     font-size: 70px;
+    background-color: #1c1d1c;
+    opacity:0.7 ;
+
 }
+
+
 body{
     background:#626461;
     margin: 0;
     
+    
 }
+
+
 header{
     
     width: 100%;
-    background: url("https://i.pinimg.com/736x/89/0d/c6/890dc6e1d4ed24e91c7d2f33f1aec6e8.jpg");
+    background: url("snapedit_1736582847630.jpeg");
     background-repeat:no-repeat;
     margin: 0;
     height:100vh;
@@ -25,43 +33,34 @@ main{
     margin: 0;
 }
 .image{
-    
     max-width: 100%;
     height: 200%;
 }
+img{
+    
+    width: 200px;
+    height: 200px;
+}
+
 h2 {
     font-size: 40px;
+    margin: 50px ;
+     
 }
+
 h3{
     font-size:30px;
+    margin: 50px ;
+    width:40% ;
 }
 
-.carousel-item{
-carousel-control-color:             white;
-carousel-control-width  :             15%;
-carousel-control-opacity :           .5;
-carousel-control-hover-opacity:     .9;
-carousel-control-transition:        opacity .15s ease;
-
-carousel-indicator-width:           30px;
-carousel-indicator-height:          3px;
-carousel-indicator-hit-area-height: 10px;
-carousel-indicator-spacer:          3px;
-carousel-indicator-opacity:         .5;
-carousel-indicator-active-bg:       white;
-carousel-indicator-active-opacity:  1;
-carousel-indicator-transition:      opacity .6s ease;
-
-carousel-caption-width:             70%;
-carousel-caption-color:             white;
-carousel-caption-padding-y:         1.25rem;
-carousel-caption-spacer:            1.25rem;
-
-carousel-control-icon-width:        2rem;
-
-carousel-control-prev-icon-bg:      url("https://i.pinimg.com/736x/b6/b1/74/b6b174a4f8ae808cb3f25ff596efcccd.jpg");
-carousel-control-next-icon-bg:      url("https://i.pinimg.com/736x/f0/5f/12/f05f121b5a9bc6ad61e8bb576e491c31.jpg");
-
-carousel-transition-duration:       .6s;
-carousel-transition:                transform carousel-transition-duration ease-in-out; /* Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)*/
+@media screen and (max-width : 600px) {
+    
 }
+
+    
+
+
+
+
+
